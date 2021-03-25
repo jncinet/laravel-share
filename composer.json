@@ -1,0 +1,29 @@
+{
+  "name": "jncinet/laravel-share",
+  "description": "laravel share",
+  "keywords": [
+    "laravel",
+    "share"
+  ],
+  "homepage": "https://www.zhangye.org.cn",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhangye",
+      "email": "y@qilephp.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Jncinet\\LaravelShare\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jncinet\\LaravelShare\\ShareServiceProvider"
+      ]
+    }
+  }
+}
